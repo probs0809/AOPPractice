@@ -16,8 +16,6 @@ public aspect Myaspect{
 
     pointcut allMethods() : (call(* Book.output_*()));
     before() : allMethods(){
-        System.out.println("Method Called");
-        
+        System.out.println("Method Called");   
     }
-
 }
