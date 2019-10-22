@@ -5,7 +5,7 @@ class Invite{
     void invite(int id, String name){
         this.id = id;
         this.name = name;
-    }
+    } 
 
     void serve(int serve_id){
         this.id = serve_id;
