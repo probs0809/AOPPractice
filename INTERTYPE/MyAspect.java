@@ -13,11 +13,11 @@ aspect MyAspect{
         var3 = v3;
     }
     
-    // public void Details.show_v2(){
-    //     System.out.println("Var1 in aspect is:: "+var1);
-    //     System.out.println("Var2 in aspect is:: "+var2);
-    //     System.out.println("Var3 in aspect is:: "+var3);
-    // }
+    public void Details.show_v3(){
+        System.out.println("Var1 in aspect is:: "+var1);
+        System.out.println("Var2 in aspect is:: "+var2);
+        System.out.println("Var3 in aspect is:: "+var3);
+    }
 
 
     

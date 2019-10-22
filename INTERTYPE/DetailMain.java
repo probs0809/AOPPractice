@@ -19,7 +19,9 @@ public class DetailMain{
         D1.update_v1(10);
         D1.update_v2(10);
         D1.update_v3("qwertyui");
+        D1.show_v3();
         D1.show();
+
        
     }
 }

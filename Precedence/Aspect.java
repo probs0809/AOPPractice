@@ -5,13 +5,14 @@ aspect req{
     }
 }
 
-aspect feedback{
+aspect accept{
+      
     pointcut p2():call(* Invite.*(..));
-    after() : p2(){
-        System.out.println("Provide feedback before leaving");
+    before() : p2(){
+        System.out.println("Request accepted, you may proceed");
     }
 }
 
 aspect metasp{
-    declare precedence: req,feedback;
+    declare precedence: req,accept;
 }
